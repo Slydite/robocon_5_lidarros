@@ -1,0 +1,2 @@
+lidar
+-DCATKIN_DEVEL_PREFIX=/home/slydite/robocon/1_lidar/devel -DCMAKE_INSTALL_PREFIX=/home/slydite/robocon/1_lidar/install -G Unix Makefiles

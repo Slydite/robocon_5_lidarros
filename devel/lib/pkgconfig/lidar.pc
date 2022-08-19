@@ -1,0 +1,8 @@
+prefix=/home/slydite/robocon/1_lidar/devel
+
+Name: lidar
+Description: Description of lidar
+Version: 0.0.0
+Cflags: -I/home/slydite/robocon/1_lidar/devel/include -I/home/slydite/robocon/1_lidar/src/lidar/include
+Libs: -L${prefix}/lib -llidar
+Requires: roscpp rospy std_msgs message_runtime
